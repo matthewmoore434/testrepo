@@ -63,4 +63,18 @@ git log (to check log of commits)
 git add -A (to add files to the stage ready to be commited)
 
 
+lets create a new branch and checkout into the new branch
+
+ -->  git checkout  -b test-new-branch
+
+
+if you face any conflicts issue 
+then you need to rebase from which branch are you merging 
+
+-- git rebase main
+
+--  git push origin test-new-branch -f
+
+this will update the current branch heads according to the branch in which we are merging the code. 
+
 */
