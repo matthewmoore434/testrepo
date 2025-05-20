@@ -35,4 +35,14 @@ now we need to push changes on the git
 git push origin main 
 
 
+
+------------------------------------------------------------------------------
+
+
+
+lets create a new branch and checkout into the new branch
+
+ -->  git checkout  -b test-new-branch
+
+
 */
