@@ -44,5 +44,23 @@ lets create a new branch and checkout into the new branch
 
  -->  git checkout  -b test-new-branch
 
+ -------------------------------------------------------------------------------
+
+git checkout (for changing braches, use -b to create a new branch)
+
+git pull origin "branch name" (for pulling updated files from your repo branch)
+
+git branch (to check which branch you are in)
+
+git stauts (to check which files have been modified, added, deleted locally)
+
+git commit -m "type message here" (to setup a commit ready to be pushed to the git repo)
+
+git push origin "branch name" (to push local changes to the repo)
+
+git log (to check log of commits)
+
+git add -A (to add files to the stage ready to be commited)
+
 
 */
